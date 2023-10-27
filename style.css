@@ -1,11 +1,15 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 20px;
+  margin: 0;
+  padding: 0;
+  background-image: url("wallpaperflare.com_wallpaper.jpg");
+  background-size: cover; /* Untuk mengisi seluruh latar belakang */
+  background-repeat: no-repeat;
 }
 
 .container {
   width: 300px;
-  margin: 20px auto 0;
+  margin: 100px auto 0;
   background-color: rgba(255, 255, 255, 0.7);
   padding: 20px;
   border-radius: 5px;
@@ -29,7 +33,4 @@ input[type="number"] {
 .total {
   font-weight: bold;
   margin-top: 10px;
-}
-.background {
-  z-index: -99;
 }
